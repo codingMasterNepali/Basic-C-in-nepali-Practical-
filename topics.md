@@ -36,6 +36,16 @@
                         sizeof(char);
                         sizeof(float);
                         sizeof(double);
+6. Input and Output Function:
+        (a)Input Function:
+                        scanf() 
+                        getchar() 
+                        gets()
+        (b)Output Function:
+                        printf()
+                        putchar()
+                        puts()
+
                 
 
 
