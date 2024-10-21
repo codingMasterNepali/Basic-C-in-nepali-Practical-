@@ -47,52 +47,5 @@
                         puts()
 
                 
-7. Function in C: // see folder named function_in_C
-
-8. Storage Classes in C:
-        Giving additional information to the variable is known as storage class.
-        every variable declaration describe three things:
-                (a) data type of the variable
-                (b) name of the variable
-                (c) size of the variable
-        additional information about the variable:
-                default value of the variable
-                location/ storage
-                visibility/scope
-                life time of the variable
-        Types of storage classes:(all are keywords)
-                (a) auto
-                (b) register
-                (c) static
-                (d) extern
-9.     Array and String in C:
-        An array is a collection of similar data type
-        one -dimensional array:
-                It is also called linear array concepetually one-dimensional array acts as a row, where elements are stored one after another
-        two-dimensional array:
-                Two dimensional array is used to represents the elements of the array in the form of row and column.
-        Passing array to function:
-                an array name can be used as an arguments to a function thus 
-                permitting the entire array to be passed to the function
-        String in C:
-                String is a collection of similar type of character elements in array.
-                The string can be defined as the one-dimensional array of character terminiated by a null ('\0'). the termination character \0 is importatn in a string since it is the only way to identity where the string ends.
-                Two way of declaring a string in C langauge:
-                        By char array
-                        By string literal
-                String handling function in C:
-                        strcat
-                        strcmp
-                        strcp
-                        strlen
-
-
-                        
-        
-       
-
-                
-
-
 
 
