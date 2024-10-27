@@ -45,8 +45,6 @@
                         printf()
                         putchar()
                         puts()
-
-                
 7. Function in C: // see folder named function_in_C
 
 8. Storage Classes in C:
@@ -85,6 +83,24 @@
                         strcmp
                         strcp
                         strlen
+10. Pointers in C programming:
+        1.Pointer declaration.
+        2.Pointer initialization.
+        3.Single pointer
+        4.Double pointer 
+        5.Pointer to array
+        6. Pointer to strings
+        7. Types of operation used in c programming
+         ==>> There are four arithmetic operators that can be used in pointer.
+                a) Increment
+                b) Decrement
+                c) Addition
+                d) Subtraction
+        8. Types of Pointer in C programming
+                a) Wild pointer
+                b) NULL pointer
+                c) void pointer
+                d) Dangling pointer
 
 
                         
@@ -92,7 +108,5 @@
        
 
                 
-
-
 
 
