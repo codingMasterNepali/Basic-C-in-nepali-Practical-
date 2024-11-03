@@ -101,6 +101,61 @@
                 b) NULL pointer
                 c) void pointer
                 d) Dangling pointer
+11. Stucture and Unions in C programming:
+        Structure in C is a user-defined data types it enables us to store the collection of different data types.
+        Each elements of a structure is called a member structure.The 'struct' key used to define the structure.
+        Syntax of structure define:
+                struct structure_name{
+                        data_type member;
+                        data_type member;
+                        .
+                        .
+                };
+                
+                #Define
+                #Declare
+                #Initialization
+                #Access to the structure members elements
+                        1) dot (. ) operator method
+                        2) -> structure pointer operator 
+                #Array of Structue in C
+                        Declaring an array of structure is same as declaring an array of fundamentals types.
+                        Since a anrray is a collection of elements of the same type. In an array of structure,
+                        elements of an array is of the struc type.
+                #Pointer to structures in C programming
+                        The pointer to a structure in C is very similar to the pointer to any in-built data type variable.
+                        The Syntax of declaring a pointer to structure variable is:
+                                struct structure_name *pointer_variable
+
+                #Structure and Function in C programming
+                        Like all other type, you can pass structure as arguments to a function . In fact you can pass individual
+                        memberss, structure variable, a pointer to structre etc to the function.Function can return either 
+                        an individual members or structure variable or pointers to the structure.
+        Unions in C programming  
+                Unions are conceptually similar to structures. the only difference in terms of storage in structure each members has 
+                its own storage location whereas all members of union uses a single shared memeory location which is equal to the size of 
+                of its largest data members.
+                Syntax:
+                                union union_name{
+                                        data_type member;
+                                        data_type member;
+                                        data_type member;
+                                };    
+
+
+
+
+
+
+
+                        
+        
+       
+
+                
+
+
+
 
 
                         
