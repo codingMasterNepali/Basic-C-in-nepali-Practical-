@@ -111,8 +111,7 @@
                         .
                         .
                 };
-                
-                #Define
+                        #Define
                 #Declare
                 #Initialization
                 #Access to the structure members elements
@@ -143,22 +142,41 @@
                                 };    
 
 
+12. The Pre- Processor:
+        >As the name suggest pre-processor are programs that process our source code before compilation.
+        >The C pre-processor is a macro pre-processor that transforms your code/ program before it is compiled.
+
+        Pre-processor tasks:
+        1. Source file inclusion:
+                #include<stdio.h> will be replaced by the original implementation of stdio.h file, basically it will remove the #include statement form the source code and includes stdio.h file content into the source program.
+        2. Macro Substitution
+                A macro is a segment of code which is replaced by the value of macro. macro is defined by the #define directive
+
+                Function in macro definition:
+                        Macro:
+                        In a macro call the pre-processor replaces the macro template with its macro expansion.
+                        Usually macros make the program run faster but increase the program size.
+                        Function:
+                        In a function call the contorl is passed to a function along with certain arguments, some calculations are performed in the function and as useful value is returned back the function.
+                        function make program smaller.
+                Nesting:
+                        One macro can use another macro in its definition is called macro nesting.
+                You can also use one macro in the definition of another macro. That is macro definition may be nested.
+
+                       
+        3. Conditional Compilation:
+                        In C programing we can insert pre-processor whether to include a block of code or not. to do so. conditional directive can be used .
 
 
 
+13. Dynamic Memory Allocation(DMA):
+                        1.malloc
+                        2.calloc
+                        3.realloc
+                        4.free
+                Memory segment in C programming
 
-
-                        
-        
-       
-
-                
-
-
-
-
-
-                        
+                Linked list:
         
        
 
